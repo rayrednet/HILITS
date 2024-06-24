@@ -32,6 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
+
     <title>Login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -50,7 +51,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <div class="h-100 d-flex justify-content-center align-items-center">
     <div class="column">
+    <a class="navbar-brand" href="#">
+        <img src="assets/logo-myits-blue.png" alt="Logo" height="50" class="d-inline-block align-text-top">
+        HILITS
+    </a>
+    <div class="m-5"></div>
     <h2>Login</h2>
+    <div class="m-5"></div>
     <form method="post" action="index.php?page=login">
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br><br>
@@ -59,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="password" id="password" name="password" required><br><br>
 
         <input class="btn btn-primary" type="submit" value="Login">
-        <a class="btn btn-outline-success" href="index.php?page=register" role="button">Register</a>
+        <a class="btn btn-outline-success" href="index.php?page=register" role="button">Register?</a>
     </form>
     
     </div>       
