@@ -8,11 +8,11 @@
 
 <div class="container mt-5">
     <h2>Select an Option to Create</h2>
-    <div class="row">
-        <div class="col-md-6">
+    <div class="d-flex justify-content-center">
+        <div>
             <a href="index.php?page=create_idea" class="btn btn-primary btn-block">Create Idea</a>
         </div>
-        <div class="col-md-6">
+        <div">
             <a href="index.php?page=create_problem" class="btn btn-secondary btn-block">Create Problem</a>
         </div>
     </div>
