@@ -34,11 +34,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 <head>
     <title>Create Idea</title>
+    <style>
+        .form-limit{
+            width:40vw;
+        }
+    </style>
 </head>
 <body>
 <?php include 'reusable/header.php'; ?>
 
-<div class="container mt-5">
+<div class="h-100 d-flex justify-content-center align-items-center">
+<div class="form-limit">
     <h2>Create Idea</h2>
     <?php if ($message): ?>
         <div class="alert alert-info"><?php echo $message; ?></div>
@@ -75,6 +81,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
-
+</div>
 </body>
 </html>
