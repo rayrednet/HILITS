@@ -89,15 +89,15 @@ CREATE TABLE `users` (
 
 --
 -- Dumping data for table `users`
---
+-- Other than admin, pass is "qweqwe"
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
-(1, 'john_doe', 'john.doe@example.com', 'hashed_password_here'),
-(2, 'jane_smith', 'jane.smith@example.com', 'hashed_password_here'),
-(3, 'eric_jones', 'eric.jones@example.com', 'hashed_password_here'),
-(4, 'alice_wong', 'alice.wong@example.com', 'hashed_password_here'),
-(5, 'bob_chen', 'bob.chen@example.com', 'hashed_password_here'),
-(6, 'eva_li', 'eva.li@example.com', 'hashed_password_here'),
+(1, 'john_doe', 'john.doe@example.com', '$2y$10$f83ru5Wxbj9GqWKlGUfViOItuKMup3iTJHJHbk79RF1XjsF/98n2K'),
+(2, 'jane_smith', 'jane.smith@example.com', '$2y$10$f83ru5Wxbj9GqWKlGUfViOItuKMup3iTJHJHbk79RF1XjsF/98n2K'),
+(3, 'eric_jones', 'eric.jones@example.com', '$2y$10$f83ru5Wxbj9GqWKlGUfViOItuKMup3iTJHJHbk79RF1XjsF/98n2K'),
+(4, 'alice_wong', 'alice.wong@example.com', '$2y$10$f83ru5Wxbj9GqWKlGUfViOItuKMup3iTJHJHbk79RF1XjsF/98n2K'),
+(5, 'bob_chen', 'bob.chen@example.com', '$2y$10$f83ru5Wxbj9GqWKlGUfViOItuKMup3iTJHJHbk79RF1XjsF/98n2K'),
+(6, 'eva_li', 'eva.li@example.com', '$2y$10$f83ru5Wxbj9GqWKlGUfViOItuKMup3iTJHJHbk79RF1XjsF/98n2K'),
 (7, 'admin', 'corneliusv35@gmail.com', '$2y$10$cbESVm4j37AYF1f6KcSPg.aa8HoFqIplfi980KeMHcyqAK4khqtf6');
 
 --

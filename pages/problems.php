@@ -18,7 +18,7 @@ $result = $stmt->get_result();
 
 <div class="content">
     <h2>Problems List</h2>
-    <table class="table table-bordered">
+    <table class="table table-primary table-striped">
         <thead>
             <tr>
                 <th>No</th>
@@ -28,7 +28,7 @@ $result = $stmt->get_result();
                 <th>Perusahaan</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="table-group-divider">
             <?php
             $no = 1;
             while ($row = $result->fetch_assoc()) {

@@ -19,7 +19,7 @@ $result = $stmt->get_result();
 
 <div class="content">
     <h2>Ideas List</h2>
-    <table class="table table-bordered " >
+    <table class="table table-info table-striped" >
         <thead>
             <tr>
                 <th>No</th>
@@ -29,7 +29,7 @@ $result = $stmt->get_result();
                 <th>Prestasi</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="table-group-divider">
             <?php
             $no = 1;
             while ($row = $result->fetch_assoc()) {
