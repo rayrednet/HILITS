@@ -14,11 +14,13 @@ include 'reusable/header.php';
         
         <div class="card mt-5">
             <div class="card-header">
-                Featured
+                Pengumuman
+                <img src="assets/anounce.png" width="20px">
             </div>
+            
             <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="card-title">Hilits telah hadir!</h5>
+                <p class="card-text">Website hilits sudah ada, ayo daftarkan hasil lombamu!</p>
             </div>
         </div>
         <div class="row justify-content-around align-items-end mt-5">
@@ -28,8 +30,9 @@ include 'reusable/header.php';
                         Featured
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title">Ideas List</h5>
+                        <p class="card-text">Look at some ideas that other have uploaded.</p>
+                        <a href="index.php?page=ideas" class="btn btn-primary">Ideas</a>
                     </div>
                 </div>
             </div>
@@ -39,8 +42,9 @@ include 'reusable/header.php';
                         Featured
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title">Problems List</h5>
+                        <p class="card-text">Industry problem list. See if you can figure it out.</p>
+                        <a href="index.php?page=problem" class="btn btn-primary">Problem</a>
                     </div>
                 </div>
             </div>
