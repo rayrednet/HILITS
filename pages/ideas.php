@@ -19,7 +19,7 @@ $result = $stmt->get_result();
 
 <div class="content">
     <h2>Ideas List</h2>
-    <table class="table table-bordered">
+    <table class="table table-bordered " >
         <thead>
             <tr>
                 <th>No</th>
@@ -43,7 +43,7 @@ $result = $stmt->get_result();
             }
             ?>
         </tbody>
-    </table>
+    </table>   
 </div>
 
 </body>

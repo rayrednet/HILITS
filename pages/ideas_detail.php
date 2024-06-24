@@ -33,6 +33,14 @@ $idea = $result->fetch_assoc();
 
 <div class="content">
     <h2>Idea Detail</h2>
+    <div class="container text-center">
+        <div class="row justify-content-center">
+        <div class="col-4">
+        <img src="assets/sample-poster.jpg" height="500px">
+        </div>
+        </div>
+    </div>
+    
     <table class="table table-bordered">
         <tr><th>Title</th><td><?php echo htmlspecialchars($idea['judul']); ?></td></tr>
         <tr><th>Description</th><td><?php echo htmlspecialchars($idea['deskripsi']); ?></td></tr>

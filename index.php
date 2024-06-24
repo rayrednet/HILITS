@@ -37,6 +37,12 @@ function route($page) {
                 header('Location: index.php?page=login');
             }
             break;
+        case 'create_idea':
+            include 'pages/create_idea.php';
+            break;
+        case 'create_problem':
+            include 'pages/create_problem.php';
+            break;
         case 'ideas_detail':
             include 'pages/ideas_detail.php';
             break;
