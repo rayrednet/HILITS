@@ -13,6 +13,12 @@ $result = $stmt->get_result();
 <html>
 <head>
     <title>Ideas List</title>
+    <style>
+        .td:hover {
+            background-color: blue;
+            opacity: 0.5;
+        }
+    </style>
 </head>
 <body>
 <?php include 'reusable/header.php'; ?>
