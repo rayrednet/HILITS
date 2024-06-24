@@ -18,7 +18,7 @@ Institut Teknologi Sepuluh Nopember, 2024
 
 - **Unggah Inovasi**: Mahasiswa dapat mengunggah karya tulis dan inovasi mereka.
 - **Lihat Ide dan Masalah**: Akses daftar ide dan masalah yang dapat diatasi oleh mahasiswa.
-- **Akses Mentorship**: Meskipun fitur ini belum sepenuhnya berfungsi, aplikasi ini akan menghubungkan mahasiswa dengan mentor di masa depan.
+- **Akses Mentorship**: Meskipun fitur ini belum berfungsi, aplikasi ini akan menghubungkan mahasiswa dengan mentor di masa depan.
 
 ## Instalasi
 
