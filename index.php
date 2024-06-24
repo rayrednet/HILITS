@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+include 'database/db.php';
 function route($page) {
     switch($page) {
         case 'login':
@@ -16,9 +16,39 @@ function route($page) {
                 header('Location: index.php?page=login');
             }
             break;
+        case 'create':
+            if (isset($_SESSION['user_id'])) {
+                include 'pages/create.php';
+            } else {
+                header('Location: index.php?page=login');
+            }
+            break;
+        case 'ideas':
+            if (isset($_SESSION['user_id'])) {
+                include 'pages/ideas.php';
+            } else {
+                header('Location: index.php?page=login');
+            }
+            break;
+        case 'problems':
+            if (isset($_SESSION['user_id'])) {
+                include 'pages/problems.php';
+            } else {
+                header('Location: index.php?page=login');
+            }
+            break;
+        case 'ideas_detail':
+            include 'pages/ideas_detail.php';
+            break;
+        case 'problems_detail':
+            include 'pages/problems_detail.php';
+            break;
+        case 'logout':
+            include 'pages/logout.php';
+            break;
         default:
             if (isset($_SESSION['user_id'])) {
-                include 'pages/dashboard.php';
+                include 'dashboard.php';
             } else {
                 header('Location: index.php?page=login');
             }

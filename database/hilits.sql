@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `ideas`
 --
 
-CREATE TABLE `ideas` (
+CREATE TABLE `problems` (
   `id` int(11) NOT NULL,
   `judul` varchar(50) NOT NULL,
   `deskripsi` varchar(250) NOT NULL,
@@ -44,7 +44,7 @@ CREATE TABLE `ideas` (
 -- Table structure for table `problems`
 --
 
-CREATE TABLE `problems` (
+CREATE TABLE `ideas` (
   `id` int(11) NOT NULL,
   `judul` varchar(50) NOT NULL,
   `deskripsi` varchar(250) NOT NULL,

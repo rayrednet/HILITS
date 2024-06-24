@@ -63,12 +63,12 @@ include 'reusable/sidebar.php'; ?>
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-        <img src="https://thesis.its.ac.id/assets/img/logo-myits-blue.svg" alt="Logo" width="50" height="30" class="d-inline-block align-text-top">
+        <img src="assets/logo-myits-blue.png" alt="Logo" height="30" class="d-inline-block align-text-top">
         HILITS
     </a>
     <div class="d-flex">
-      <button class="btn  btn-primary" type="submit">Upload</button>
-      <img src="assets/Default_pfp.svg.png" class="profile-img" >
+      <a href="index.php?page=create" class="btn btn-primary">Upload</a>
+      <a href="index.php?page=logout" class="btn btn-outline-primary ">LogOut</a>
     </div>
   </div>
 </nav>

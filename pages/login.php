@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if (password_verify($password, $hashed_password)) {
             $_SESSION['user_id'] = $id;
-            header("Location: dashboard.php");
+            header("Location: index.php?page=dashboard");
             exit();
         } else {
             echo "Invalid email or password.";
@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <h2>Login</h2>
-    <form method="post" action="login.php">
+    <form method="post" action="index.php?page=login">
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br><br>
 

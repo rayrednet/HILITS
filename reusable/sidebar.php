@@ -1,5 +1,5 @@
 <div class="sidebar bg-body-tertiary">
-    <a href="#dashboard">Dashboard</a>
-    <a href="#ideas">Ideas</a>
-    <a href="#problem">Problem</a>
+    <a href="index.php?page=dashboard">Dashboard</a>
+    <a href="index.php?page=ideas">Ideas</a>
+    <a href="index.php?page=problems">Problems</a>
 </div>

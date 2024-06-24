@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bind_param("sss", $username, $email, $hashed_password);
 
         if ($stmt->execute()) {
-            header("Location: login.php");
+            header("Location: index.php?page=login");
             exit();
         } else {
             echo "Error: " . $stmt->error;
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <h2>Register</h2>
-    <form method="post" action="register.php">
+    <form method="post" action="index.php?page=register">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required><br><br>
 
