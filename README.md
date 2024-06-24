@@ -11,7 +11,7 @@ Kelompok: 1
 - **Alfian Fikri Ramadhan** (02411940000088)
 - **Andreas P Simorangkir** (5007211084)
 
-Dosen: Hakun Wirawasista Aparamarta, S.T., M.M.T., Ph.D.
+Dosen: Hakun Wirawasista Aparamarta, S.T., M.M.T., Ph.D. \
 Institut Teknologi Sepuluh Nopember, 2024
 
 ## Fitur
